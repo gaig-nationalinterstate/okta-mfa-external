@@ -87,7 +87,7 @@ resource "okta_policy_mfa" "external-accounts-prod" {
     enroll       = "REQUIRED"
   }
 
-  priority = "1"
+  priority = "2"
   status   = "ACTIVE"
 }
 

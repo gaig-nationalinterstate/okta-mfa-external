@@ -43,7 +43,7 @@ resource "okta_policy_mfa" "external-accounts-prod-voice" {
     enroll       = "OPTIONAL"
   }
 
-  priority = "2"
+  priority = "1"
   status   = "ACTIVE"
 }
 
